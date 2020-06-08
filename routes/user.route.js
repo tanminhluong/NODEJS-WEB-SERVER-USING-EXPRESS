@@ -1,9 +1,7 @@
 var express = require('express');
-var shortid = require('shortid');
-
-var db = require('../db');
 var controller = require('../controllers/user.controller.js');
 var validate = require('../validate/user.validate.js');
+var authMiddleware = require('../middlewares/auth.middleware.js');
 
 var router = express.Router();
 router.get('/', controller.index);

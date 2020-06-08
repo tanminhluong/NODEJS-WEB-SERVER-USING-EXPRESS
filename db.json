@@ -15,12 +15,16 @@
     {
       "name": "Tan",
       "phone": "012345678",
-      "id": "kpzRhvD1C"
+      "id": "kpzRhvD1C",
+      "email": "tan@express.info",
+      "password": "123"
     },
     {
       "name": "Minh Tan",
       "phone": "012345678",
-      "id": "xj4mHWZCq"
+      "id": "xj4mHWZCq",
+      "email": "tanminh@gmail.com",
+      "password": "123"
     }
   ]
 }
