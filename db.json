@@ -646,5 +646,48 @@
       "image": "https://loremflickr.com/320/240",
       "description": "laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel"
     }
+  ],
+  "sessions": [
+    {
+      "id": "xnkrZazj8",
+      "cart": {
+        "undefined": 4
+      }
+    },
+    {
+      "id": "Gw0gAYEPx",
+      "cart": {
+        "undefined": 1
+      }
+    },
+    {
+      "id": "qRmhg0gS4"
+    },
+    {
+      "id": "joowiFlwr",
+      "cart": {
+        "90b71c0d-95c7-46cb-a8d5-6ed25d7cce0f": 1
+      }
+    },
+    {
+      "id": "5cddbecNH",
+      "cart": {
+        "90b71c0d-95c7-46cb-a8d5-6ed25d7cce0f": 2,
+        "36caa73e-018e-4796-918e-50d3a4cfd3e4": 1,
+        "5dd2c137-c0f1-4734-9263-6cefbfa72a52": 1,
+        "d7e3c6b5-7402-427e-8251-21e2ceaad6eb": 1
+      }
+    },
+    {
+      "id": "-_cc53N3Q",
+      "cart": {
+        "90b71c0d-95c7-46cb-a8d5-6ed25d7cce0f": 3,
+        "5dd2c137-c0f1-4734-9263-6cefbfa72a52": 2,
+        "d7e3c6b5-7402-427e-8251-21e2ceaad6eb": 1,
+        "36caa73e-018e-4796-918e-50d3a4cfd3e4": 1,
+        "9819d77b-43b4-46bc-81c0-c0bff6bba6da": 1,
+        "68071808-499b-4e8b-b364-99cae2354958": 1
+      }
+    }
   ]
 }
