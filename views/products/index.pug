@@ -19,20 +19,20 @@ block content
 						p.card-text= product.description
 						a.btn.btn-primary(href='/cart/add/' + product.id) Add to cart
 
-	ul.pagination.text-center
-		each page in totalPages
-			if(page === 'Last')
-				li.page-item
-					a.page-link(href=`products/` ? `?page=${lastPage}` : ''  )= page
-			if(page !== 'Last' && page !== 'First' && page !== 'Next' && page !== 'Prev')
-				li.page-item
-					a.page-link(href=`products/` ? `?page=${page}` : '')= page
-			if(page === 'First')
-				li.page-item
-					a.page-link(href=`products/` ? `?page=${1}` : '')= page
-			if(page === 'Next')
-				li.page-item
-					a.page-link(href=`products/` ? `?page=${currPage+1}` : '')= page
-			if(page === 'Prev')
-				li.page-item
-					a.page-link(href=`products/` ? `?page=${currPage-1}` : '')= page
+	//- ul.pagination.text-center
+	//- 	each page in totalPages
+	//- 		if(page === 'Last')
+	//- 			li.page-item
+	//- 				a.page-link(href=`products/` ? `?page=${lastPage}` : ''  )= page
+	//- 		if(page !== 'Last' && page !== 'First' && page !== 'Next' && page !== 'Prev')
+	//- 			li.page-item
+	//- 				a.page-link(href=`products/` ? `?page=${page}` : '')= page
+	//- 		if(page === 'First')
+	//- 			li.page-item
+	//- 				a.page-link(href=`products/` ? `?page=${1}` : '')= page
+	//- 		if(page === 'Next')
+	//- 			li.page-item
+	//- 				a.page-link(href=`products/` ? `?page=${currPage+1}` : '')= page
+	//- 		if(page === 'Prev')
+	//- 			li.page-item
+	//- 				a.page-link(href=`products/` ? `?page=${currPage-1}` : '')= page

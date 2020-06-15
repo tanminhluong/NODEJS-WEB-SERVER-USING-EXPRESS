@@ -1,4 +1,4 @@
-var Product = require('../models/product.model');
+var Product = require('../../models/product.model');
 var shortid = require('shortid');
 
 module.exports.index = async function(req, res){
@@ -34,8 +34,11 @@ module.exports.index = async function(req, res){
 	// }); 
 
 	var products = await Product.find();
-	res.render('products/index', {
-		products: products
-	});
+	res.json(products);
 	
 }
+
+module.exports.create = async function(req, res) {
+	var product = await Product.create(req.body);
+	res.json(product); 
+};

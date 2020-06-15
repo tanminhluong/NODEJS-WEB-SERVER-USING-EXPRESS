@@ -688,6 +688,38 @@
         "9819d77b-43b4-46bc-81c0-c0bff6bba6da": 1,
         "68071808-499b-4e8b-b364-99cae2354958": 1
       }
+    },
+    {
+      "id": "iVeAxJ4K8"
+    },
+    {
+      "id": "plNazli_m"
+    },
+    {
+      "id": "w7hIzZup3"
+    },
+    {
+      "id": "J0sRLCDq1"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "Etlhm8GD7",
+      "amount": 500000
+    },
+    {
+      "id": "KFUlHWHga",
+      "amount": 123456
+    },
+    {
+      "id": "N9o8BHuuN",
+      "amount": 500000,
+      "userId": "xj4mHWZCq"
+    },
+    {
+      "id": "-znLdOiot",
+      "amount": null,
+      "userId": "xj4mHWZCq"
     }
   ]
 }

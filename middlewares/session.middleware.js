@@ -1,6 +1,7 @@
 var shortid = require('shortid');
 var db = require('../db');
 
+
 module.exports = function(req, res, next){
 	
 	if(!req.signedCookies.sessionId){

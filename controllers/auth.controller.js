@@ -1,4 +1,5 @@
-var db = require('../db');
+// var db = require('../db');
+var User = require('../models/user.model');
 var shortid = require('shortid');
 var md5 = require('md5');
 
@@ -6,11 +7,15 @@ module.exports.login = function(req, res){
 	res.render('auth/login');
 }
 
-module.exports.postLogin = function(req, res){
+module.exports.postLogin = async function(req, res){
 	var email = req.body.email;
 	var password = req.body.password;
 
-	var user = db.get('users').find({ email: email }).value();
+	var users = await User.find();
+	
+	var user = users.filter(function(item){
+		return item.email === email;
+	});
 
 	if(!user){
 		res.render('auth/login', {
@@ -24,7 +29,7 @@ module.exports.postLogin = function(req, res){
 
 	var hashPassword = md5(password);
 
-	if(user.password !== hashPassword){
+	if(user[0].password !== hashPassword){
 		res.render('auth/login',{
 			errors: [
 				'Wrong password.'
